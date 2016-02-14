@@ -1,0 +1,31 @@
+Author: Robin Kalia
+Email: robink.iitkgp@gmail.com
+
+The "Open Source - Data Structures and Algorithms" aims to provide a comprehensive set of algorithms in C++. 
+This is a work in progress. In the first version "Version 1.0 - Beta", I aim to work on developing skeleton 
+of the various algorithms that are asked in interviews and used by all big software companies and small software 
+startups. Please do not use the code in "Version 1.0 - Beta" for doing serious stuff other than just skimming it
+for personal knowledge since I mainly intend to write simple code for the most common algorithms used with 
+different data structures. Also, I will keep on improving the quality of my code with a better use of STL. 
+
+I will keep on building and improving my code over a certian period of time before just pushing on a decent 
+quality code that could be used for small tasks. You have to write your own library to develop an efficiently 
+scalable computing distributed platform. I don't claim that I am an awesome programmer, but I try to quickly 
+prototype code that works and that could be maintained over time. When you face software engineering interviews, 
+you should be able to quickly prototype these basic freshman Computer Science course based algorithms. I intend 
+to cover the following topics in this software library.
+
+1) Linked Lists
+2) Stacks and Queues
+3) Binary Trees
+4) Multiway Trees
+5) Graphs
+6) Sorting
+7) String Matching
+8) General Algorithms
+
+I will keep on adding to this list as I write more and more code with time. I will also keep on improving and 
+optimizing my source code with a better use of STL and C++11 <algorithms> library. 
+ 
+Thanks for going through my work. Your comments and suggestions will be helpful. Please send me an email at 
+robink.iitkgp@gmail.com for communication regarding this project.
