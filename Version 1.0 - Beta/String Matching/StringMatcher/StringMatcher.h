@@ -5,7 +5,6 @@
 // StringMatcher.h: Contains the declaration of different methods and data members used in the "StringMatcher" class that
 //                  provides access to different efficient string matching algorithms.    
 
-
 /*
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -20,6 +19,10 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+
+
+#ifndef _OPENSOURCE_DATASTRUCTS_ALGOS_STRINGMATCHER_H
+#define _OPENSOURCE_DATASTRUCTS_ALGOS_STRINGMATCHER_H
 
 #include <iostream>
 
@@ -41,3 +44,5 @@ public:
 
 	void KnuthMorrisPrattStringMatchingAlgorithm(const std::string &text, const std::string &pattern, std::vector<int32_t> &matching_indices);
 };
+
+#endif	// _OPENSOURCE_DATASTRUCTS_ALGOS_STRINGMATCHER_H

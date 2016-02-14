@@ -20,6 +20,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 
+#ifndef _OPENSOURCE_DATASTRUCTS_ALGOS_GRAPH_EDGE_H
+#define _OPENSOURCE_DATASTRUCTS_ALGOS_GRAPH_EDGE_H
+
+
 #include "Node.hpp"
 
 template<typename T1, typename T2>
@@ -50,3 +54,5 @@ Edge<T1, T2>::~Edge()
 
 }
 
+
+#endif		//_OPENSOURCE_DATASTRUCTS_ALGOS_GRAPH_EDGE_H

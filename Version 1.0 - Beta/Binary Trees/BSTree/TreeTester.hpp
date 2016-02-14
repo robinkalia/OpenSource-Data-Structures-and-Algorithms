@@ -19,6 +19,8 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#ifndef _OPENSOURCE_DATASTRUCTS_ALGOS_BSTREE_TESTER_H
+#define _OPENSOURCE_DATASTRUCTS_ALGOS_BSTREE_TESTER_H
 
 #include "BSTree.hpp"
 
@@ -52,3 +54,5 @@ void TreeTester<T>::TestTree()
 	tree.PreOrderDFS();
 	tree.PostOrderDFS();
 }
+
+#endif		// _OPENSOURCE_DATASTRUCTS_ALGOS_BSTREE_TESTER_H

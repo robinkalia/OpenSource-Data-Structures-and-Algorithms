@@ -20,6 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 
+#ifndef _OPENSOURCE_DATASTRUCTS_ALGOS_GRAPH_H
+#define _OPENSOURCE_DATASTRUCTS_ALGOS_GRAPH_H
+
 #include "Node.hpp"
 
 #include <vector>
@@ -955,3 +958,4 @@ void Graph<T1, T2>::EliminateEdgeWithMaximumWeight(std::vector<std::pair<int64_t
 	adjacency_matrix[node_uuid_index_map[path_edges_list[path_edges_list.size() - 1].second.second]].second[node_uuid_index_map[path_edges_list[path_edges_list.size() - 1].second.first]] = 0;
 }
 
+#endif		// _OPENSOURCE_DATASTRUCTS_ALGOS_GRAPH_H

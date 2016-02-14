@@ -20,6 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 
+#ifndef _OPENSOURCE_DATASTRUCTS_ALGOS_BSTREE_NODE_H
+#define _OPENSOURCE_DATASTRUCTS_ALGOS_BSTREE_NODE_H
+
 #include <iostream>
 #include <cstddef>
 #include <stdint.h>
@@ -37,3 +40,5 @@ public:
 	T key_;
 	int32_t index_;
 };
+
+#endif	// _OPENSOURCE_DATASTRUCTS_ALGOS_BSTREE_NODE_H

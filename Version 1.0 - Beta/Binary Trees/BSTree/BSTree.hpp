@@ -20,6 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 
+#ifndef _OPENSOURCE_DATASTRUCTS_ALGOS_BSTREE_H
+#define _OPENSOURCE_DATASTRUCTS_ALGOS_BSTREE_H
+
 #include <vector>
 #include <stack>
 
@@ -418,3 +421,6 @@ void BSTree<T>::DeleteByCopying(const T& elem)
 		left_child_rightmost_node = nullptr;
 	}
 }
+
+
+#endif		// _OPENSOURCE_DATASTRUCTS_ALGOS_BSTREE_H
